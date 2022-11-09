@@ -13,16 +13,17 @@
 </head>
 
 <body>
+    <!--start rate card-->
     <div class="card">
-        <header>
+        <section class="header">
             <div class="card__img-container">
                 <img src="assets/images/icon-star.svg" alt="" class="card__img">
             </div>
             <h1 class="card__title">
                 How did we do?
             </h1>
-        </header>
-        <main>
+        </section>
+        <section class="main">
             <form action="" method="get" class="card__form">
                 <h2 class="card__subtitle">
                     Please let us know how we did with your support request. All feedback is appreciated
@@ -30,25 +31,40 @@
                 </h2>
                 <fieldset class="card__score-container">
                     <label for="one" class="card__label"> 1
-                        <input name="score" id="one" class="card__input" type="radio" value="1" hidden>
+                        <input name="score" id="one" class="card__input" type="radio" value="1">
                     </label>
                     <label for="two" class="card__label"> 2
-                        <input name="score" id="two" class="card__input" type="radio" value="2" hidden>
+                        <input name="score" id="two" class="card__input" type="radio" value="2">
                     </label>
                     <label for="three" class="card__label"> 3
-                        <input name="score" id="three" class="card__input" type="radio" value="3" hidden>
+                        <input name="score" id="three" class="card__input" type="radio" value="3">
                     </label>
                     <label for="four" class="card__label"> 4
-                        <input name="score" id="four" class="card__input" type="radio" value="4" hidden>
+                        <input name="score" id="four" class="card__input" type="radio" value="4">
                     </label>
                     <label for="five" class="card__label"> 5
-                        <input name="score" id="five" class="card__input" type="radio" value="5" hidden>
+                        <input name="score" id="five" class="card__input" type="radio" value="5">
                     </label>
                 </fieldset>
                 <input type="submit" class="card__submit" value="submit">
             </form>
-        </main>
+        </section>
     </div>
+    <!--end rate card-->
+    <!--start thank card-->
+    <div class="thank-card card">
+        <img src="assets/images/illustration-thank-you.svg" alt="" class="thank-card__img">
+        <h1 class="thank-card__result"></h1>
+        <p class="thank-card__thank"> Thank you!</p>
+        <p class="thank-card__text">
+            We appreciate you taking the time to give a rating. If you ever need more support,
+            don’t hesitate to get in touch!
+        </p>
+        <div class="thank-card__btn">
+            Rate us again
+        </div>
+    </div>
+    <!--end thank card-->
     <footer>
 
     </footer>
