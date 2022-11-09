@@ -1,0 +1,70 @@
+/* overpass-regular - latin */
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/overpass-v12-latin-regular.eot");
+  src: local(""),
+    url("../fonts/overpass-v12-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/overpass-v12-latin-regular.woff2") format("woff2"),
+    url("../fonts/overpass-v12-latin-regular.woff") format("woff"),
+    url("../fonts/overpass-v12-latin-regular.ttf") format("truetype"),
+    url("../fonts/overpass-v12-latin-regular.svg#Overpass") format("svg");
+}
+/* overpass-700 - latin */
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/overpass-v12-latin-700.eot");
+  src: local(""),
+    url("../fonts/overpass-v12-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/overpass-v12-latin-700.woff2") format("woff2"),
+    url("../fonts/overpass-v12-latin-700.woff") format("woff"),
+    url("../fonts/overpass-v12-latin-700.ttf") format("truetype"),
+    url("../fonts/overpass-v12-latin-700.svg#Overpass") format("svg");
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.5rem;
+  font-family: Overpass;
+  color: white;
+}
+:root {
+  --Orange: hsl(25, 97%, 53%);
+  /*---Neutral Color---*/
+  --White: hsl(0, 0%, 100%);
+  --Light-Grey: hsl(217, 12%, 63%);
+  --Medium-Grey: hsl(216, 12%, 54%);
+  --Dark-Blue: hsl(213, 19%, 18%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+  --card-bg: #1f2630;
+}
+/* .fs-1 {
+  font-size: calc(1.375rem + 1.5vw) !important;
+}
+
+.fs-2 {
+  font-size: calc(1.325rem + 0.9vw) !important;
+}
+
+.fs-3 {
+  font-size: calc(1.3rem + 0.6vw) !important;
+}
+
+.fs-4 {
+  font-size: calc(1.275rem + 0.3vw) !important;
+}
+
+.fs-5 {
+  font-size: 1.25rem !important;
+}
+
+.fs-6 {
+  font-size: 1rem !important;
+} */
