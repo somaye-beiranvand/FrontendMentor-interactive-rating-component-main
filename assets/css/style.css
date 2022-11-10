@@ -102,7 +102,8 @@ input[type="radio"] {
   background-color: var(--Medium-Grey);
   cursor: pointer;
 }
-.rating-card__label:has(> .rating-card__input:checked) {
+/*--- change the bgcolor of selected score ---*/
+.rating-card__input:checked + .rating-card__label {
   background-color: var(--Orange);
   color: var(--white);
 }
@@ -113,7 +114,6 @@ input[type="radio"] {
   background-color: var(--Orange);
   color: var(--White);
 }
-
 /*---- thank-card ----*/
 .thank-card {
   flex-direction: column;
