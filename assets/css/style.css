@@ -13,6 +13,7 @@ input[type="radio"] {
   border: 0px;
   width: 0;
   height: 0;
+  appearance: none;
 }
 /*---- btn ----*/
 .btn {
@@ -90,6 +91,7 @@ input[type="radio"] {
   justify-content: center;
   width: 4rem;
   height: 4rem;
+  line-height: 4.1rem;
   border-radius: 50%;
   background-color: var(--circle-primary-bg);
   color: var(--Light-Grey);
