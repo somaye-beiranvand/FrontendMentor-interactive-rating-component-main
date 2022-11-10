@@ -36,9 +36,8 @@ body {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
-  opacity: 50%;
   color: var(--White);
-  background-color: white;
+  background-color: var(--circle-primary-bg);
 }
 .card__form {
   display: flex;
@@ -48,31 +47,57 @@ body {
 .card__subtitle {
   font-size: 1.4rem;
   line-height: 2.1rem;
+  color: var(--Light-Grey);
 }
 .card__score-container {
   display: flex;
   justify-content: space-between;
 }
 .card__label {
-  font-size: 1.4rem;
-  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 4rem;
   height: 4rem;
-  text-align: center;
-  line-height: 4rem;
   border-radius: 50%;
-  background-color: #fff;
-  color: black;
+  background-color: var(--circle-primary-bg);
+  color: var(--Light-Grey);
 }
-.card__submit {
-  padding: 0.9rem 0 !important;
+.card__label:hover {
+  color: var(--White);
+  background-color: var(--Medium-Grey);
+  cursor: pointer;
+}
+.btn {
+  background-color: var(--Orange);
+  color: var(--White);
   border: none;
+  font-size: 1.7rem;
+  padding: 0.9rem 0 !important;
+  border-radius: 50rem;
   -webkit-border-radius: 50rem;
   -moz-border-radius: 50rem;
-  border-radius: 50rem;
-  font-size: 1.7rem;
+  transition: all 0.5s;
+}
+.btn:hover {
+  background-color: var(--White);
+  color: var(--Orange);
+}
+.btn:focus {
+  transform: scaleX(1.1);
 }
 .thank-card {
+  display: none;
+  flex-direction: column;
+  width: 87%;
+  max-width: 40.15rem;
+  padding: 2.4rem 2rem !important;
+  border-radius: 2.5rem;
+  gap: 1.8rem;
+  background-color: var(--card-bg);
   align-items: center !important;
 }
 .thank-card__img {
@@ -84,21 +109,28 @@ body {
 }
 .thank-card__btn {
   width: 100%;
-  background-color: white;
-  color: black;
   text-align: center;
-  padding: 0.9rem 0 !important;
-  border: none;
-  border-radius: 50rem;
-  font-size: 1.7rem;
 }
 .thank-card__text {
   text-align: center;
-}
-.selected {
-  background-color: orange;
+  color: var(--Light-Grey);
 }
 input[type="radio"] {
   border: 0px;
   width: 0;
+  height: 0;
+}
+.selected {
+  background-color: var(--Orange) !important;
+  color: var(--white) !important;
+}
+.thank-card__result {
+  border-radius: 2rem;
+  background-color: var(--circle-primary-bg);
+  color: var(--Orange);
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3rem;
+  width: 20rem;
+  height: 3rem;
 }
