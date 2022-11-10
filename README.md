@@ -41,7 +41,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned it is possible to select parent elements in css and did it using this line of code
+I learned it is possible to select parent elements in css
 
 ```css
 .rating-card__label:has(> .rating-card__input:checked) {
