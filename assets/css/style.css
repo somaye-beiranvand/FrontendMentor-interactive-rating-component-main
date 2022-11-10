@@ -20,9 +20,9 @@ input[type="radio"] {
   background-color: var(--Orange);
   color: var(--White);
   border: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 400;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
   padding: 0.9rem 0 !important;
   border-radius: 50rem;
   -webkit-border-radius: 50rem;
