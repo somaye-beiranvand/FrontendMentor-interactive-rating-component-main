@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [interactive-rating-component-main](https://www.frontendmentor.io/solutions/responsive-interactive-rating-component-main-with-jquery-yECmJgd2nB)
+- Live Site URL: [interactive-rating-component-main](https://somaye-beiranvand.github.io/FrontendMentor-interactive-rating-component-main/)
 
 ## My process
 
@@ -52,4 +52,4 @@ I learned it is possible to select parent elements in css and did it using this 
 
 ## Author
 
-- Frontend Mentor - [@somaye-beiranvand]https://www.frontendmentor.io/profile/somaye-beiranvand)
+- Frontend Mentor - [@somaye-beiranvand](https://www.frontendmentor.io/profile/somaye-beiranvand)
