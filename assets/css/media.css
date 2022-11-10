@@ -1,36 +1,44 @@
 @media (min-width: 400px) {
-  .card {
+  .btn {
+    font-size: 1.9rem;
+  }
+  .rating-card,
+  .thank-card {
     padding: 3.1rem !important;
   }
-  .card__img-container {
+  .rating-card__img-container {
     width: 5rem;
     height: 5rem;
   }
-  .card__title {
+  .rating-card__title {
     font-size: 2.8rem;
   }
-  .card__subtitle {
+  .rating-card__subtitle {
     font-size: 1.5rem;
   }
-  .card__label {
+  .rating-card__label {
     width: 5rem;
     height: 5rem;
     line-height: 5rem;
     border-radius: 50%;
   }
-  .card__submit {
-    font-size: 1.9rem;
+  .thank-card {
+    padding: 3.5rem 3rem;
+    border-radius: 2.5rem;
+    gap: 1.5rem;
+  }
+  .thank-card__thank {
+    font-size: 2.8rem;
+  }
+  .thank-card__text {
+    font-size: 1.5rem;
   }
 }
-
 @media (min-width: 768px) {
 }
-
 @media (min-width: 992px) {
 }
-
 @media (min-width: 1200px) {
 }
-
 @media (min-width: 1400px) {
 }

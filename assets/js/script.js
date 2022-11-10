@@ -1,19 +1,28 @@
 document.addEventListener("DOMContentLoaded", function () {
-  $(".card__submit").on("click", function (e) {
+  const RatingCardBtn = $(".rating-card__btn");
+  const RatingCard = $(".rating-card");
+  const ThankCard = $(".thank-card");
+  const ThankCardResult = $(".thank-card__result");
+  const ThankCardBtn = $(".thank-card__btn");
+
+  RatingCardBtn.on("click", function (e) {
     e.preventDefault();
+    RatingCard.hide();
+    ThankCard.css("display", "flex");
+    /*render selected value*/
     let r = $("input[name=score]:checked").val();
-    $(".card").hide();
-    $(".thank-card").css("display", "flex");
-    $(".thank-card__result").text("You selected " + r + " out of 5");
+    /*show selected value*/
+    ThankCardResult.text("You selected " + r + " out of 5");
   });
-  $(".thank-card__btn").on("click", function () {
-    $(".card").show();
-    $(".thank-card").hide();
+
+  ThankCardBtn.on("click", function () {
+    RatingCard.show();
+    ThankCard.hide();
   });
+
   $("input[name='score']").on("focus", function () {
-    $(this).parent().addClass("selected");
+    RatingCardBtn.prop("disabled", false);
   });
-  $("input[name='score']").on("blur", function () {
-    $(this).parent().removeClass("selected");
-  });
+  // $("input[name='score']").on("blur", function () {
+  // });
 });
