@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   ThankCardBtn.on("click", function () {
+    $("input[name=score]:checked").prop("checked", false);
+    RatingCardBtn.prop("disabled", true);
     RatingCard.show();
     ThankCard.hide();
   });
